@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <link rel="shortcut icon" href="../018/favicon/Sonicfavi.png" type="image/x-icon">
+    <style>
+        /* Seletores Personalizados
+           # = id
+           . = class
+           : = pseudo-class
+           :: = pseudo-element
+           > = children
+
+        */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: rgba(187, 35, 35, 0.911);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        #especial {
+            color: rgba(25, 197, 197, 0.952);
+        }
+
+        #especial:hover {
+            font-size: 18px;
+        }
+
+        a:visited {
+            color: rgba(28, 28, 199, 0.966);
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: green;
+        }
+
+        a::before {
+            content: '➡️';
+        }
+
+        a::after {
+            content: '⬅️';
+            text-decoration: none;
+            font-weight: 300;
+            color: darkgray;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">Repositorio GitHub</a></li>
+
+        <li><a href="https://www.youtube.com/c/CursoemVídeo" target="_blank">Canal Youtube</a></li>
+
+        <li><a id="especial" href="https://open.spotify.com/playlist/0Du7StF0kEyosg8Bso6Nnn?si=04b75bed531741c0" target="_blank">
+        Spotify PLaylist</a></li>
+    </ul>
+    
+</body>
+</html>

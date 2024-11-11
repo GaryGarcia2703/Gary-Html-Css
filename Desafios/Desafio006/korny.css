@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+@font-face {
+    font-family:Spotify;
+    src: url(fonts/Be_Vietnam_Pro/BeVietnamPro-Black.ttf);
+}
+
+@font-face {
+    font-family:'korn';
+    src: url(fonts/korn/KORN.TTF);
+}
+
+:root {
+    --cor0:#1f1f1f;
+    --cor1:#8a8e91;
+    --cor2:#9a031e;
+    --cor4:#266b91d5;
+    --cor7:#39748E;
+    --cor8:#1dbbff;
+    --cor5:#3a3a3ab4;
+    --cor6:#ffc2c2;
+
+
+    --fonte-destaque:'spotify', verdana, helvetica;
+    --fonte-korn:'korn', 'Rock salt';
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1f1f1f;
+}
+
+header {
+    background-image: linear-gradient(to top, var(--cor1), var(--cor7));
+    padding: 8px;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+#rockhill{
+    font-weight: 500;
+    text-align: center;
+    font-family:var(--fonte-destaque);
+    text-shadow: 6px 5px 7px rgba(0, 0, 0, 0.438);
+}
+
+.principal{
+    font-weight: 100;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 6px 5px 7px rgba(0, 0, 0, 0.274);
+}
+
+nav {
+    background-color: var(--cor4);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.linkspagina{
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+    border-radius: 3px;
+    background-color:var(--cor5);
+    padding: 4px;
+    box-shadow:  4px 4px 6px 1px rgba(0, 0, 0, 0.548);
+}
+
+.linkspagina:hover {
+    text-decoration: underline;
+    color:black;
+    background-color:var(--cor9);
+    transition-duration: .5s;
+}
+
+main{
+    padding: 15px;
+    margin: 15px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.title {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color:var(--cor2);
+    font-family: var(--fonte-destaque);
+}
+
+span {
+    font-family: 'korn';
+    font-size: 70px;
+    margin-top: 0;
+    margin-bottom:0;
+}
+
+p {
+    padding: 4px;
+}
+
+#intro {
+    padding: 7px;
+    margin: 10px;
+    background-color: var(--cor1);
+    border-radius: 5px;
+}
+
+#origem {
+    padding: 7px;
+    margin: 10px;
+    background-color: var(--cor1);
+    border-radius: 5px;
+}
+
+#fotobanda {
+    display: grid;
+    place-items: center;
+}
+
+#disco {
+    padding: 7px;
+    margin: 10px;
+    background-color:var(--cor1);
+    border-radius: 5px;
+}
+
+ol {
+    columns: 2;
+    list-style-type:'\2705';
+}
+
+li {
+    padding-bottom: 6px;
+    padding-left: 10px;
+}
+
+.linkmusica {
+    color: red;
+    text-align: center;
+}
+
+a.external::after {
+    content: '\00A0\1F517';
+}
+
+.linkmusica:hover {
+    font-size: 18px;
+    text-decoration: underline;
+    color: var(--cor6);
+}
+
+.albuns {
+    display: grid;
+    place-items: center;
+}
+
+h3 {
+    font-size: 27px;
+    margin-left: 242px;
+    color: var(--cor1);
+}
+
+#videokorn {
+    margin: 0px 11px 30px 11px;
+    background-color: var(--cor1);
+    padding: 20px;
+    padding-bottom: 60%;
+    position: relative;
+    border-radius: 6px;
+}
+
+video {
+    position: absolute;
+    top:5%;
+    left:5%;
+    width:90%;
+    height:90%;
+}
+
+.linksfooter {
+    border-radius: 3px;
+    background-color: rgba(58, 58, 58, 0.705);
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 4px;
+    text-decoration: none;
+}
+
+.linksfooter:hover {
+    text-decoration: underline;
+    color: var(--cor8);
+}
+

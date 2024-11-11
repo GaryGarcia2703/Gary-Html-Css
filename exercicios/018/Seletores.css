@@ -1,0 +1,44 @@
+@font-face {
+    font-family:Minecraft;
+    src: url(../017/Fontes/Minecraftia-Regular.ttf);
+}
+
+/*
+   em HTML é id = em CSS é # (Só pode um elemento)
+   em HTML é class = em CSS é . (Pode vários elementos)
+
+*/
+
+body{
+    background-color: rgba(135, 206, 250, 0.753);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#principal {
+    font-family:'Minecraft';
+    font-weight: 200;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(25, 118, 175);
+}
+
+h2 {
+    color: rgb(33, 66, 87);
+}
+
+.basico {
+    color: rgba(12, 160, 12, 0.856);
+    font-weight: bold;
+}
+
+.intermediario{
+    color: rgba(201, 201, 14, 0.945);
+}
+
+.avancado{
+    color: rgba(196, 15, 15, 0.945);
+}

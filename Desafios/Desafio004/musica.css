@@ -1,0 +1,33 @@
+body{
+    background-color: #1d1d1d;
+}
+h1{
+    font-size: 90px;
+    color: #dadada;
+    font-family: "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+    position: absolute;
+    top: -40px;
+    left: 600px;
+}
+img{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    transform: translate( 700px, 100px);
+}
+audio {
+    position: absolute;
+    width: 1500px;
+    bottom: 360px;
+    left: 150px;
+}
+p{
+    color: #dadada;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    margin-top: 560px;
+    line-height: 1.5;
+
+}
+
+
+    

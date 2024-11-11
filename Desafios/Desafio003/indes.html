@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/Sonicfavi.png" type="image/x-icon">
+    <link rel="stylesheet" href="Xd.css">
+    <title>Trabalhando com diferentes tamanho de imagem</title>
+</head>
+
+<body>
+    <h1>Imagens que se adaptam</h1>
+    <h2>Aqui segundo o seu tamanho de tela ou navegador a imagem ira se adaptando</h2>
+
+    <picture>
+        <source media="(max-width: 800px)" srcset="imagens/gohanhorizontal.jpeg" type="image/jpeg">
+        <source media="(max-width: 1250px)" srcset="imagens/satorupng.png" type="image/png">
+        <img src="imagens/Gohan3.0.png" alt="Gohan horizontal">
+    </picture>
+    
+</body>
+</html>

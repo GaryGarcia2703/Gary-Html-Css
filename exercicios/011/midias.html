@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="imagens/silver png.png" type="image/x-icon">
+        <title>Vídeos com HTML5</title>
+        <style>
+          h1{
+            font-size: 40px;
+          }
+          h3{
+            color: #2291c3;    
+            color: #2291c3; 
+         }
+          p{
+            font-size: 25px;
+          }
+        </style>
+  </head>
+
+  <body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedade no meu própio servidor</p>
+    <video src="midia/yuta x sukuna.mkv" width="500" controls></video>
+    <p>Uma dica é colocar o mesmo vídeo em varios formatos, caso o navegador não seja compativel com um formato carregará outro formatdo do mesmo vídeo</p>
+    <h3>Exemplo:</h3>
+
+    <video width="600" poster="imagens/capa yuta x sukuna.jpg" controls loop>
+        <source src="midia/yuta x sukuna.mp4" type="video/mp4">
+        <source src="midia/yuta x sukuna.mkv" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade de vídeos.</p>
+    </video>
+
+    <p>Podemos colocar também capas para os vídeos usando o parâmetro: <mark style="background-color: aqua;">Poster="Linkdaimagem"</mark></p>
+
+    <p>Não é recomendado guardar os videos no nosso servidor, porque precisamos adaprtar um video para 4 formatos além disso, isto é caro pelos custo da hospedagem já que cosome muitos gigas</p>
+
+    <h1>Inserindo vídeos de serviços externos (Youtube)</h1>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6meiHD00fGI?si=YLmJxzVtgKSFmasl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  </body>
+
+
+</html>

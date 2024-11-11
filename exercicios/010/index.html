@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+ </head>
+
+ <body>
+ <h1>Imagens dinâmicas</h1>
+
+  <p>tente abrir este site em  vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+  <picture>
+    <source media="(max-width: 715px)" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="Imagem flexível">
+  </picture>
+
+  <h1>Reproduzindo áudio</h1>
+
+  <p>Vamos aprender a reproduzir áudios em HTML5, para fazer isso precisamo usar a tag &lt;audio&gt; e nesta tag podemos coloca parâmetros para control, para autoplay </p>
+
+  <img src="imagens/infinity funk.jpg" alt="capa do album infinity funk">
+  
+
+  <audio src="midia/omelhornoquefaz 3.0.mp3" autoplay controls></audio>
+  
+  <p>outra forma de colocar audios no nosso site e pela mesma tag sudio mas aqui vamos fazer algumas alterações para que este audio funcione em todos os navegadores.</p>
+
+  <div class="korn">
+    <img src="imagens/Korn-Korn.jpeg" alt="capa do album korn">
+  </div>
+
+  <audio preload="none" autoplay controls>
+    <source src="midia/Predictable korn.mp3" type="audio/mpeg">
+  </audio>
+
+  <!--MP3 WAV OGG-->    
+  
+ </body>
+
+</html>
