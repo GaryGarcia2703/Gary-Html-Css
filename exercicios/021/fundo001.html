@@ -4,20 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste de imagens de fundo</title>
+    <link rel="shortcut icon" href="../018/favicon/Sonicfavi.png" type="image/x-icon">
     <style>
-        div.cuadrado {
-            border: 1px solid black;
+        body {
+            background-image: url(imagens/yone-p.png);
+
+        }
+
+        div.quadrado {
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: lightgray;
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+        }
+
+        div#q1 {
+            background-color: skyblue;
+
+        }
+
+        div#q2 {
+            background-image: linear-gradient(to bottom, red,orange);
+
+        }
+
+        div#q3{
+            background-image: url(imagens/yone.jpg);
+
         }
     </style>
 </head>
 <body>
-    <div class="quadrado">
+    <div class="quadrado" id="q1">
 
     </div>
-    <div class="quadrado">
+    <div class="quadrado" id="q2">
 
     </div>
-    <div class="quadrado">
+    <div class="quadrado" id="q3">
 
     </div>
 
