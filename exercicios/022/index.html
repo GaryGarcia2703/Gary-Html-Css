@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de div inline-block
+        para centralização
+    </title>
+    <style>
+        div#habilidades {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px; 
+            margin-top: 50px;
+        }
+    
+        div.quadrado {
+            border: 2px solid #C8AA6E;
+            padding: 6px;
+            display: inline-block;
+            border-radius: 3px;
+        }
+        
+        div.quadrado:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="habilidades">
+        <div class="quadrado">
+                <img src="imagens/aatroxp.png" alt="imagem passiva aatrox">
+            </a>
+        </div>
+        <div class="quadrado">
+                <img src="imagens/q.webp" alt="imagem 1ra habilidade aatrox">
+            </a>
+        </div>
+        <div class="quadrado">
+                <img src="imagens/w.webp" alt="imagem 2da habilidade aatrox">
+            </a>
+        </div>
+        <div class="quadrado">
+            <img src="imagens/e.webp" alt="imagem 3ra habilidade aatrox">
+            </a>
+        </div>
+        <div class="quadrado">
+            <img src="imagens/r.webp" alt="imagem 4ta habilidade aatrox">
+            </a>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
