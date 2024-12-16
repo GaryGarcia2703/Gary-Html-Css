@@ -18,6 +18,14 @@
             border: 1px solid black;
             padding: 8px;
         }
+        
+        tr.linha {
+            background-color: aqua;
+        }
+
+        td.dado {
+            background-color: yellow;
+        }
     </style>
 </head>
 <body>
@@ -29,23 +37,29 @@
             table data = dado de tabela
  -->
     <table>
+
         <tr> <!--primeira linha-->
-            <td>a1</td>
+
+            <td class="dado">a1</td>
             <td>b1</td>
             <td>c1</td>
             
         </tr>
-        <tr>
+        <tr class="linha">
+
             <td>a2</td>
             <td>b2</td>
             <td>c2</td>
+
         </tr>
         <tr>
+
             <td>a3</td>
             <td>b3</td>
             <td>c3</td>
         </tr>
         <tr>
+            
             <td>a4</td>
             <td>b4</td>
             <td>c4</td>
