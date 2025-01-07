@@ -12,26 +12,36 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
-
             background-color: lightgray;
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px;
         }
 
-        .num {
-            text-align: right;
-        }
-
-        td,th{
+        td,th {
             border: 1px solid black;
             padding: 10px;
         }
 
-        thead, tfoot{
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(odd) {                    
+            background-color: lightgreen;
+        }
+
+        .num {
+            text-align: right;
+        }
+
+        thead, tfoot {
             background-color: gray;
             color: white;
         }
@@ -201,8 +211,6 @@
             <td>Roraima</td>
             <td class="num">716 793</td>
         </tr>
-        
-
     </tbody>
 
     <tfoot>
@@ -215,5 +223,6 @@
     </tfoot>
   </table>
 
+  
 </body>
 </html>
