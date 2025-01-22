@@ -4,13 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudo de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        iframe {
+            width: 600px; /* Largura do iframe */
+            height: 400px; /* Altura do iframe */
+            border: 4px solid rgba(173, 216, 230, 0.6); /* Cor azul claro com opacidade */
+            border-radius: 15px; /* Bordas arredondadas */
+            background-color: rgba(255, 255, 255, 0.2); /* Fundo branco transparente */
+            backdrop-filter: blur(10px); /* Efeito de desfoque atrás do iframe (semelhante ao Aero Glass) */
+            box-shadow: 0 4px 10px rgba(173, 216, 230, 0.5); /* Sombra suave com tom de azul claro */
+            overflow: hidden; /* Evitar que o conteúdo saia da borda */
+        }
+    </style>
 </head>
 <body>
+    <!--Tamanho padrão 300x150px-->
     <h1>Testando o uso de um iframe</h1>
     
     <p>
         acessando ao site do 
-        <iframe src="https://rule34.xxx/" frameborder="0"></iframe>
+        <iframe src="" frameborder="0"></iframe>
     </p>
 </body>
 </html>
