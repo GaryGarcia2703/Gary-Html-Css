@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/Sonicfavi.png" type="image/x-icon">
     <title>Welcome to neo iframe</title>
     <style>
         body {
@@ -14,7 +15,7 @@
             text-align: center;
         }
 
-        #container{
+        #containerplanetas{
             display: flex;
             justify-content: center;
         }
@@ -36,6 +37,7 @@
         }
 
         #capa {
+            pointer-events: none;
             position: fixed;
             top: 0;
             left: 0;
@@ -44,6 +46,16 @@
             background-color: #1c1c1da4;
             mix-blend-mode: overlay;
         }
+
+        #containeriframe {
+            display: flex;
+            justify-content: center;
+        }
+
+        iframe {
+            width: 72vw;
+            height: 36vw;
+        }
     </style>
 </head>
 <body>
@@ -51,19 +63,34 @@
     <div id="main">
         <h1>Welcome to neo iframe here you can choose to play a video you want!</h1>
 
-            <div id="container">
-                <a href=""><img src="imagenes/sweet_mountain-removebg-preview.png" alt="Swwet mountain logo"></a>
+            <div id="containerplanetas">
+                
+                <a href="paginas-extras/sweet-mountain.html" target="gameplay">
 
-                <img id="unvideo" src="imagenes/planet wisp.png" alt="Swwet mountain logo">
+                    <img src="imagenes/sweet_mountain-removebg-preview.png" alt="Sweet mountain logo">
+                </a>
 
-                <img src="imagenes/aquatic-removebg-preview.png" alt="Swwet mountain logo">
+                <a href=".//paginas-extras/Planet-wisp.html" target="gameplay">
+
+                    <img id="unvideo" src="imagenes/planet wisp.png" alt="Planet wisp Logo">
+                </a>
+
+                <a href="paginas-extras/aquarium-park.html" target="gameplay">
+
+                    <img src="imagenes/aquatic-removebg-preview.png" alt="Aquatic Park Logo">
+                </a>
             </div>
 
-            <iframe src="https://www.youtube.com/watch?v=lGj5LTUxdRc&t=5320s" frameborder="0"></iframe>
+            <div id="containeriframe">
+                <iframe name="gameplay" src="paginas-extras/sweet-mountain.html" ></iframe>
+            </div>
     </div>
 
 
-        <video muted autoplay loop src="videos/SonicColours.mp4" type="video/mp4" controls></video>
+        <video muted autoplay loop src="videos/SonicColours.mp4" type="video/mp4">
+
+        </video>
+
         <div id="capa"></div>
        
 </body>
