@@ -9,31 +9,49 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
             color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        #marginh1 {
+            margin: 41vw;
+            color: rgba(255, 0, 0, 0);
         }
 
         h1 {
             text-align: center;
+            padding-top: 5vw;
         }
 
-        #containerplanetas{
+        #containerplanetas {
             display: flex;
             justify-content: center;
+            margin-top: 20px;
         }
 
-        #main {
-            min-height: 100vw;
+        #conteudo {
+            min-height: 100vh;
             position: relative;
-            
         }
 
-        video {
+        #video-background {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            object-fit: cover;
             z-index: -1;
+            overflow: hidden;
+        }
+
+        #video-background video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
         }
 
         #capa {
@@ -47,6 +65,10 @@
             mix-blend-mode: overlay;
         }
 
+        main {
+            background-color: #283048;
+        }
+
         #containeriframe {
             display: flex;
             justify-content: center;
@@ -55,43 +77,60 @@
         iframe {
             width: 72vw;
             height: 36vw;
+            margin-bottom: 5vw;
+        }
+
+    
+        #containerplanetas a img {
+            width: 200px;
+            margin: 0 10px;
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+
+        #containerplanetas a img:hover {
+            transform: scale(1.1);
+            filter: brightness(1.2);
         }
     </style>
 </head>
 <body>
+    
+<h1 id="marginh1">AA</h1>
 
-    <div id="main">
-        <h1>Welcome to neo iframe here you can choose to play a video you want!</h1>
+    <div id="video-background">
+        <video muted autoplay loop>
+            <source src="videos/SonicColours.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <main>
+        <div id="conteudo">
+
+            <h1>Welcome to neo iframe here you can choose to play a video you want!</h1>
 
             <div id="containerplanetas">
-                
+
                 <a href="paginas-extras/sweet-mountain.html" target="gameplay">
 
                     <img src="imagenes/sweet_mountain-removebg-preview.png" alt="Sweet mountain logo">
                 </a>
-
-                <a href=".//paginas-extras/Planet-wisp.html" target="gameplay">
+                <a href="paginas-extras/Planet-wisp.html" target="gameplay">
 
                     <img id="unvideo" src="imagenes/planet wisp.png" alt="Planet wisp Logo">
                 </a>
-
                 <a href="paginas-extras/aquarium-park.html" target="gameplay">
 
                     <img src="imagenes/aquatic-removebg-preview.png" alt="Aquatic Park Logo">
                 </a>
-            </div>
-
+        </div>
             <div id="containeriframe">
-                <iframe name="gameplay" src="paginas-extras/sweet-mountain.html" ></iframe>
+                <iframe name="gameplay" src="paginas-extras/sweet-mountain.html"></iframe>
             </div>
-    </div>
+        </div>
+    </main>
 
+    <!-- Sobreposição -->
+    <div id="capa"></div>
 
-        <video muted autoplay loop src="videos/SonicColours.mp4" type="video/mp4">
-
-        </video>
-
-        <div id="capa"></div>
-       
 </body>
 </html>

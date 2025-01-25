@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efeito Parallax com Vídeo</title>
+    <style>
+        body {
+            margin: 0;
+            overflow-x: hidden; /* Desabilita a barra de rolagem horizontal */
+        }
+
+        h1 {
+            text-align: center;
+            color: rgba(255, 0, 0, 0);
+            margin: 50vw;
+        }
+
+        video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1; /* Posiciona o vídeo atrás de outros elementos */
+        }
+
+        .section {
+            height: 500px; /* Ajuste a altura conforme necessário */
+            background-color: #f0f0f0cc;
+            position: relative;
+        }
+
+        .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>A</h1>
+    <video autoplay muted loop>
+        <source src="../Desafio008/videos/Aquarium.mp4" type="video/mp4">
+    </video>
+
+    <section class="section parallax" data-speed="0.5">
+        <h2>Seção 1</h2>
+        <p>Lorem ipsum dolor sit amet...</p>
+    </section>
+
+    <section class="section parallax" data-speed="0.8">
+        <h2>Seção 2</h2>
+        <p>Lorem ipsum dolor sit amet...</p>
+    </section>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('.parallax');
+            sections.forEach(section => {
+                const speed = section.dataset.speed;
+                const parallax = -(window.scrollY * speed) + 'px';
+                section.style.backgroundPosition = 'center ' + parallax;
+            });
+        });
+    </script>
+</body>
+</html>
