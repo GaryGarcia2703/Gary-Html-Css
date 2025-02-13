@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telefone e e-mail</title>
+</head>
+<body>
+    <h1>Telefone e e-mail</h1>
+
+ <form action="cadastro.php" method="get" autocomplete="on">
+    <p>
+        <label for="iemail">E-mail:</label>
+        <input type="email" id="iemail" autocomplete="email" required>
+    </p>
+
+    <p>
+        <label for="itel">Telefone</label>
+        <input type="tel" id="itel" autocomplete="tel">
+    </p>
+
+    <p>
+        <input type="submit" value="enviar">
+        <input type="reset">
+    </p>
+ </form>
+
+</body>
+</html>
