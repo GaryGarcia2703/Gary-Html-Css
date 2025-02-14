@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <fieldset>
+            <legend>Sexo</legend>
+            <p>
+                <input type="radio" name="sexo" id="isxmas" value="m">
+                <label for="isxmas">Masculino</label>
+
+                <input type="radio" name="sexo" id="isxfem" value="f">
+                <label for="isxfem">Feminino</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Consoles favoritos</legend>
+
+            <input type="checkbox" id="idre">
+            <label for="idre"> Sega Dreamcast</label><br>
+            
+            <input type="checkbox" id="ips1">
+            <label for="ips1">Play station 1</label><br>
+
+            <input type="checkbox" id="igc">
+            <label for="igc"> Nintendo gamecube</label><br>
+
+            <input type="checkbox" id="ips2">
+            <label for="ips2">Play station 2</label><br>
+
+            <input type="checkbox" id="ixbox">
+            <label for="ixbox">Xbox</label><br>
+
+            <input type="checkbox" id="iwii">
+            <label for="iwii">Nintendo wii</label><br>
+
+            <input type="checkbox" id="i360">
+            <label for="i360">Xbox 360</label><br>
+
+            <input type="checkbox" id="ione">
+            <label for="ione">Xbox one</label><br>
+
+            <input type="checkbox" id="ips3">
+            <label for="ips3">Play station 3</label><br>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar">
+        </p>
+    </form>
+</body>
+</html>
