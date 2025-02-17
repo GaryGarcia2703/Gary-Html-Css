@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+        <p>
+            <label for="iest">Estado:</label>
+            <select id="iest">
+
+                <option value="" selected>--- Escolha ---</option>
+
+                <optgroup label="Região Sudeste"> 
+                    <option value="SP">Sâo paulo</option>
+                    <option value="MG">Minas gerais</option>
+                    <option value="RJ">Rio de janeiro</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio Grande do norte</option>
+                </optgroup>
+
+                <optgroup label="Região Sul">
+                    <option value="SC">Santa catarina</option>
+                    <option value="PR">Paraná</option>
+                    <option value="RS">Rio grande so sul</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" id="iprof" list="LSTprof">
+
+            <datalist id="LSTprof">
+                <option>Administrador</option>
+                <option>Contabilista</option>
+                <option>Programador</option>
+                <option>Professor</option>
+                <option>Desenvolvedor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem:</label><br>
+            <textarea id="imsg" cols="40" rows="10"
+            placeholder="Sua mensagem..."></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar">
+        </p>
+    </form>
+</body>
+</html>
