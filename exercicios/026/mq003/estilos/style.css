@@ -1,0 +1,43 @@
+@charset "UTF-8";
+   /*Declarações gerais*/
+   @media all {
+   * {
+    margin: 0px;
+    padding: 0px;
+    }
+}
+
+    html, body {
+        width: 100vw;
+        height: 100vh;
+        background-color: #235DE0;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(255, 0, 0);
+        text-shadow: 2px 2px 0px #004cff;
+        padding: 10px;
+    }
+
+    /*Declaração retrato*/
+    @media screen and (orientation: portrait) {
+        body {
+        background: url(../imagens/pepsi\ man.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:top center;
+        }   
+    }
+
+    /*Declaraçãoes paisagem*/
+    @media screen and (orientation: landscape) {
+        body {
+        background: url(../imagens/sonic.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center center ;
+        }
+    }
