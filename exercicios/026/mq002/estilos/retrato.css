@@ -1,3 +1,10 @@
 @charset "UTF-8";
 
 /*Aparelho em pé (portrait)*/
+
+body {
+    background: url(../imagens/ＣｙｂｅｒＣｏｒｅ.jpg );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top center;
+}

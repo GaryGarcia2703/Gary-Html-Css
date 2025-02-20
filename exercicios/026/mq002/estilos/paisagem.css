@@ -1,3 +1,10 @@
 @charset "UTF-8";
 
 /*Aparelho deitado (landscape)*/
+
+body {
+    background: url(../imagens/sonic\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center ;
+}
