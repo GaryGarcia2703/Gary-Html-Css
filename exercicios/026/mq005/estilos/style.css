@@ -6,17 +6,28 @@
     padding: 0px;
 }
 
+@font-face {
+    font-family: 'mix';
+    src: url(../fontes/Gotham-Bold.otf);
+}
+
 body, html {
     background-color: rgb(255, 202, 202);
+    background-color:#5D7078 ;
 }
 
 header {
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
 }
 
 header > h1 {
     padding: 10px;
+    padding-top:100px ;
+    margin-bottom: 100px;
     text-align: center;
+    font-size: 81px;
+    font-family: 'mix';
+    color: white;
 }
 
 span#burger {
@@ -57,34 +68,82 @@ menu > ul > li > a:hover {
 }
 
 h1#titulo {
+    padding: 10px;
+    padding-top:100px ;
+    padding-bottom: 100px;
+    background-color: #19409b;
+    color: white;
     text-align: center;
+    font-family: 'grunge';
+    font-size: 110px;
     
 }
 
 
 div#img1 {
-    background: url(../imagens/greenday.jpeg);
+    background: url(../imagens/Spiderpunk.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+
     width: 102vw;
-  height: 39vw;
+    height: 39vw;
 }
 
 
 main {
-    width: 90vw;
-    background-color:#19409b ;
+    background-color: #8C9EA6;
+    margin: 50px;
     margin: auto;
-    margin-top: 10px;
     padding: 10px;
     border-radius: 10px;
 }
 
+article {
+    border-radius: 10px;
+   background-color: #52ceff;
+}
 
 article > h2 {
+    background-color: black;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
     padding-bottom: 10px;
+    text-align: center;
+    font-size: 2.5em;
 }
 
 article > p {
     text-align: justify;
-    margin-bottom: 20px;
+    font-size: 1.5em;
+    padding-bottom: 20px ;
+    margin: 26px;
     text-indent: 20px;
 }
+
+article#ar1 {
+
+}
+
+article#ar2 {
+
+}
+
+
+article#ar3 {
+
+}
+
+
+article#ar4 {
+
+}
+
+
+article#ar5 {
+
+}
+
+
+

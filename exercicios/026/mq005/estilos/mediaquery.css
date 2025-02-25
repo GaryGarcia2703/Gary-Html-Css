@@ -1,0 +1,21 @@
+@media screen and (min-width:1280px) and (max-width: 1920px) { /*DESKTOP*/
+    main {
+        max-width: 65vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1300px) { /* TABLET */
+    main {
+        max-width: 80vw;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    main {
+        max-width: 90vw;
+    }
+
+    h1 {
+        color: red;
+    }
+}
