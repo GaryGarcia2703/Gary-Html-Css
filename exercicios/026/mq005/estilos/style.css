@@ -93,16 +93,15 @@ div#img1 {
 
 
 main {
-    background-color: #8C9EA6;
     margin: 50px;
     margin: auto;
-    padding: 10px;
     border-radius: 10px;
 }
 
 article {
     border-radius: 10px;
-   background-color: #52ceff;
+    background-color: #8DBBCD;
+    margin-bottom: 60px; 
 }
 
 article > h2 {
@@ -120,29 +119,6 @@ article > p {
     padding-bottom: 20px ;
     margin: 26px;
     text-indent: 20px;
-}
-
-article#ar1 {
-
-}
-
-article#ar2 {
-
-}
-
-
-article#ar3 {
-
-}
-
-
-article#ar4 {
-
-}
-
-
-article#ar5 {
-
 }
 
 
