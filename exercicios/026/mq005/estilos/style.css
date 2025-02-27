@@ -1,5 +1,11 @@
 @charset "UTTF-8";
 
+/*Shrikhand*/
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Shrikhand&display=swap');
+
+/*funnel sans*/
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shrikhand&display=swap');
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -74,9 +80,9 @@ h1#titulo {
     background-color: #19409b;
     color: white;
     text-align: center;
-    font-family: 'grunge';
+    font-family: 'shrikhand';
     font-size: 110px;
-    
+
 }
 
 
@@ -93,15 +99,24 @@ div#img1 {
 
 
 main {
+    background-color:#5D7078 ;
     margin: 50px;
     margin: auto;
     border-radius: 10px;
 }
 
 article {
+    padding: 0px;
     border-radius: 10px;
     background-color: #8DBBCD;
     margin-bottom: 60px; 
+}
+
+img#guitar {
+    margin: auto;
+    display: block;
+    width: 263px;
+    height: 167px;
 }
 
 article > h2 {
@@ -109,16 +124,20 @@ article > h2 {
     color: white;
     border-radius: 10px 10px 0px 0px;
     padding-bottom: 10px;
+    padding: 4vw;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 4.5em;
+    font-family: 'shrikhand';
 }
 
 article > p {
+    line-height: 35px;
+    font-weight: 300;
     text-align: justify;
-    font-size: 1.5em;
+    font-size: 26px;
     padding-bottom: 20px ;
     margin: 26px;
-    text-indent: 20px;
+    text-indent: 25px;
 }
 
 
