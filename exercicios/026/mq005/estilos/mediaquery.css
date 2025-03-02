@@ -1,23 +1,19 @@
 @media screen and (min-width:1280px) and (max-width: 1920px) { /*DESKTOP*/
-    main {
+    div#poppunk {
         max-width: 65vw;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1300px) { /* TABLET */
-    main {
+    div#poppunk {
         max-width: 80vw;
     }
 }
 
 @media screen and (min-width:320px) and (max-width:767px) { /*Celulares*/
-    main {
+    div#poppunk{
         max-width: 90vw;
     }
 }
 
-@media screen and (min-width: 768px)  { 
-    span#burguer{
-        display: none;
-    }
- }
+

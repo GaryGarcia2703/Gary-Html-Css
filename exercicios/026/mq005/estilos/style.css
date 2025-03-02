@@ -18,7 +18,7 @@
 }
 
 body, html {
-    background-color:#191923 ;
+    background-color:#9ddbf8;
 }
 header {
     background-color: rgb(0, 0, 0);
@@ -34,45 +34,38 @@ header > h1 {
     color: white;
 }
 
-span#burguer {
-    background-color: rgb(145, 145, 145);
-    color: white;
-    display: block;
-    text-align: center;
-    padding: 10px;
-    cursor: pointer;
-}
-
-span#burger:hover {
-    background-color: rgb(240, 231, 231);
-    color: black;
-
-}
-
 menu {
-    display: none;
+    display: flex;
+    justify-content: center; 
 }
 
 menu > ul {
-    list-style: none;
+    list-style: none; 
+    padding: 10px;
+    margin-bottom: 9px;
+    display: flex; 
+    gap: 10px; 
 }
 
 menu > ul > li > a {
-    background-color:gray;
-    color: white;
+    background-color:#19409b;
+    color: rgb(255, 255, 255);
+
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+
     text-align: center;
-    display: block;
-    padding: 10px;
     text-decoration: none;
-    border-top: 2px solid rgb(0, 0, 0);
+    font-family: 'mix';
 }
 
 menu > ul > li > a:hover {
-    background-color: rgba(3, 3, 3, 0.877);
+    background-color: #DADDD8;
+    color: black;
 }
 
 h1#titulo {
-    padding: 10px;
+    padding: 10px; 
     padding-top:100px ;
     padding-bottom: 100px;
     background-color: #19409b;
@@ -80,9 +73,7 @@ h1#titulo {
     text-align: center;
     font-family: 'shrikhand';
     font-size: 110px;
-
 }
-
 
 div#img1 {
     background: url(../imagens/Spiderpunk.jpeg);
@@ -96,8 +87,7 @@ div#img1 {
 }
 
 
-main {
-    background-color:#5D7078 ;
+div#poppunk {
     margin: 50px;
     margin: auto;
     border-radius: 10px;
@@ -106,7 +96,7 @@ main {
 article {
     padding: 0px;
     border-radius: 10px;
-    background-color: #8DBBCD;
+    background-color: #A2B1B8;
     margin-bottom: 60px; 
 }
 
@@ -129,7 +119,7 @@ article > h2 {
 }
 
 article > p {
-    line-height: 35px;
+    line-height: 45px;
     font-weight: 300;
     text-align: justify;
     font-size: 26px;
@@ -137,6 +127,67 @@ article > p {
     margin: 26px;
     text-indent: 25px;
 }
+
+h1#maioresbandas {
+    padding: 10px; 
+    padding-top:100px ;
+    padding-bottom: 100px;
+    background-color: #19409b;
+    color: white;
+    text-align: center;
+    font-family: 'mix';
+    font-size: 5em;
+}
+
+article.nomarginbottom {
+    background-color: #EEF0F2;
+    margin-bottom: 60px;
+    margin-top: -26px;
+}
+
+
+.nombrebanda{
+    background-color: black;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding-bottom: 10px;
+    padding: 4vw;
+    text-align: center;
+    font-size: 4.5em;
+    font-family: 'shrikhand';
+}
+
+#imgbanda1 {
+    background-image: url(../imagens/Blink-182.jpeg);
+}
+
+#imgbanda2 {
+    background-image: url(../imagens/greenday.jpeg);
+}
+
+#imgbanda3 {
+    background-image: url(../imagens/sum41.jpeg);
+}
+
+#imgbanda4 {
+    background-image: url(../imagens/paramore.jpg);
+}
+
+#imgbanda5 {
+    background-image: url(../imagens/avril\ lavigne.jpg);
+}
+
+.fotodelabanda {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+
+    width: 102vw;
+    height: 39vw;
+}
+
+
 
 
 
