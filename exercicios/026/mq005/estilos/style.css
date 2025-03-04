@@ -8,11 +8,11 @@
 }
 
 body, html {
-    background-color: lightgrey;
+    background-color: #00B8B1;
 }
 
 header {
-    background-color: rgb(148, 148, 148);
+    background-color: #F4F3EE;
 }
 
 header > h1 {
@@ -20,17 +20,19 @@ header > h1 {
     text-align: center;
 }
 
-i#burguer {
-    background-color: rgb(48, 48, 48);
-    color: white;
+span#burguer {
+    background-color: #4D7EA8;
+    color: #CAD8DE;
+
+    width: 100vw;
     display: block;
-    text-align: center;
     padding: 10px;
+    text-align: center;
     cursor: pointer;
 }
 
-i#burguer:hover {
-    background-color: white;
+span#burguer:hover {
+    background-color: #FFFBFA;
     color: black;
 }
 
@@ -39,21 +41,17 @@ menu {
 }
 
 menu > ul {
-    list-style-type: none;
+    list-style: none;
 }
 
 menu > ul > li > a {
     display: block;
-    padding: 10px;
-    text-decoration: none;
+    background-color: #4D7EA8;
+    color:  white;
     text-align: center;
-    background-color: rgb(87, 87, 87);
-    color: white;
-    border-top: 2px solid gray;
-}
-
-menu > ul > li > a:hover {
-    background-color: gray;
+    text-decoration: none;
+    border-top: 2px solid #CAD8DE;
+    padding: 10px;
 }
 
 main {
