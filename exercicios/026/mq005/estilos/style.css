@@ -54,6 +54,11 @@ menu > ul > li > a {
     padding: 10px;
 }
 
+menu > ul > li > a:hover {
+    background-color: #151414;
+    color: white;
+}
+
 main {
     width: 90vw;
     background-color: white;
