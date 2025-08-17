@@ -4,8 +4,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+div.conteiner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 div.iten{
     background-color: #fb8500;
+    flex: auto;
+    
 }
 
 h2#block1 {
@@ -75,15 +83,13 @@ div#block2 {
 }
 
 h2#block3 {
-    color: white;
-    background-color: #50524F;
+    background-color: #B6D6F2;
     padding: 20px;
     border-radius: 10px 10px 0px 0px;
 }
 
 p#block3 {
-    color: white;
-    background-color: #50524F;
+    background-color: #B6D6F2;
     padding: 20px;
     margin-top: -25px;
 }
