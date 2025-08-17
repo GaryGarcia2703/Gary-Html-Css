@@ -1,0 +1,3 @@
+este desafrio esta sendo feito com base con conhecimentos do módulo numero 5 do curso de html & css
+do curso em video, o resto de desafios nas pastas anteriores tambem foram feitos sobre conhecimentos do curso,
+ mas foram feitos sobre módulos anteriores

@@ -1,0 +1,98 @@
+body {
+    text-align: center;
+    background-color: #E6EFE9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.iten{
+    background-color: #fb8500;
+}
+
+h2#block1 {
+    color: white;
+    background-color: #718BD9;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+p#block1 {
+    color: white;
+    background-color: #718BD9;
+    padding: 20px;
+    margin-top: -25px;
+}
+
+div#block1 {
+    height: 552px;
+    max-width: 736px;
+    background-image: url(../img/SSX.jpeg);
+    background-position: bottom center;
+    border-radius: 10px;
+}
+
+h2#block2 {
+    color: white;
+    background-color: #50524F;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+p#block2 {
+    color: white;
+    background-color: #50524F;
+    padding: 20px;
+    margin-top: -25px;
+}
+
+div#block2 {
+    height: 552px;
+    max-width: 736px;
+    background-image: url(../img/Need\ For\ Speed\ Underground\ -\ Mitsubishi\ Eclipse.jpeg);
+    background-position: bottom center;
+    border-radius: 10px;
+}
+
+h2#block2 {
+    color: white;
+    background-color: #50524F;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+p#block2 {
+    color: white;
+    background-color: #50524F;
+    padding: 20px;
+    margin-top: -25px;
+}
+
+div#block2 {
+    height: 552px;
+    max-width: 736px;
+    background-image: url(../img/Need\ For\ Speed\ Underground\ -\ Mitsubishi\ Eclipse.jpeg);
+    background-position: bottom center;
+    border-radius: 10px;
+}
+
+h2#block3 {
+    color: white;
+    background-color: #50524F;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+p#block3 {
+    color: white;
+    background-color: #50524F;
+    padding: 20px;
+    margin-top: -25px;
+}
+
+div#block3 {
+    height: 552px;
+    max-width: 736px;
+    background-image: url(../img/sonic_generations.png);
+    background-position: center center;
+    border-radius: 10px;
+}
+
