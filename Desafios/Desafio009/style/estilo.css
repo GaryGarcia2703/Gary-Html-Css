@@ -8,25 +8,14 @@ div.conteiner {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+     
 }
 
 div.iten{
     background-color: #fb8500;
-    flex: auto;
-}
-
-h2#block1 {
-    color: white;
-    background-color: #718BD9;
-    padding: 20px;
-    border-radius: 10px 10px 0px 0px;
-}
-
-p#block1 {
-    color: white;
-    background-color: #718BD9;
-    padding: 20px;
-    margin-top: -25px;
+    margin: 15px;
+    flex: 1 1 500px; /*AQUI ESTA O TRUQUE DO FLEX-WRAP*/
 }
 
 div#block1 {
@@ -34,21 +23,8 @@ div#block1 {
     max-width: 736px;
     background-image: url(../img/SSX.jpeg);
     background-position: bottom center;
+    background-size: cover;
     border-radius: 10px;
-}
-
-h2#block2 {
-    color: white;
-    background-color: #50524F;
-    padding: 20px;
-    border-radius: 10px 10px 0px 0px;
-}
-
-p#block2 {
-    color: white;
-    background-color: #50524F;
-    padding: 20px;
-    margin-top: -25px;
 }
 
 div#block2 {
@@ -56,41 +32,8 @@ div#block2 {
     max-width: 736px;
     background-image: url(../img/Need\ For\ Speed\ Underground\ -\ Mitsubishi\ Eclipse.jpeg);
     background-position: bottom center;
+    background-size: cover;
     border-radius: 10px;
-}
-
-h2#block2 {
-    color: white;
-    background-color: #50524F;
-    padding: 20px;
-    border-radius: 10px 10px 0px 0px;
-}
-
-p#block2 {
-    color: white;
-    background-color: #50524F;
-    padding: 20px;
-    margin-top: -25px;
-}
-
-div#block2 {
-    height: 552px;
-    max-width: 736px;
-    background-image: url(../img/Need\ For\ Speed\ Underground\ -\ Mitsubishi\ Eclipse.jpeg);
-    background-position: bottom center;
-    border-radius: 10px;
-}
-
-h2#block3 {
-    background-color: #B6D6F2;
-    padding: 20px;
-    border-radius: 10px 10px 0px 0px;
-}
-
-p#block3 {
-    background-color: #B6D6F2;
-    padding: 20px;
-    margin-top: -25px;
 }
 
 div#block3 {
@@ -98,6 +41,7 @@ div#block3 {
     max-width: 736px;
     background-image: url(../img/sonic_generations.png);
     background-position: center center;
+    background-size: cover;
     border-radius: 10px;
 }
 
