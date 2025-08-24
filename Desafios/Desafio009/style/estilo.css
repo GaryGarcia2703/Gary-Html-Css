@@ -1,7 +1,8 @@
 body {
     text-align: center;
-    background-color: #E6EFE9;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
 }
 
 div.conteiner {
@@ -39,7 +40,16 @@ div#block2 {
 div#block3 {
     height: 552px;
     max-width: 736px;
-    background-image: url(../img/sonic_generations.png);
+    background-image: url(../img/silly_husky.png);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+div#block4 {
+    height: 552px;
+    max-width: 736px;
+    background-image: url(../img/sonic\ ad.jpeg);
     background-position: center center;
     background-size: cover;
     border-radius: 10px;
