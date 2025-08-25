@@ -1,0 +1,62 @@
+
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.playlist-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.album-cover {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.2);
+    margin-right: 20px;
+}
+
+.album-info h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.album-info p {
+    color: #b3b3b3;
+    margin: 5px 0 15px;
+}
+
+.tracklist {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.track {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.track:hover {
+    background-color: rgba(255,255,255,0.1);
+    cursor: pointer;
+}
+
+.track-number {
+    color: #b3b3b3;
+    width: 30px;
+}
+
+.track-name {
+    flex: 1;
+}
+
+.track-duration {
+    color: #b3b3b3;
+}
