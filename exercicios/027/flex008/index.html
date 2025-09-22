@@ -10,6 +10,9 @@
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
+
+            align-items: center;
+            height: 400px;
         }
 
         div.iten {
@@ -21,36 +24,33 @@
         }
 
         div#i1 {
-            order: 1;
+            
         }
 
         div#i2 {
-            order: -2;
+            align-self: auto;
         }
 
         div#i3 {
-            order: 4;
+            align-self: flex-end;
         }
 
         div#i4 {
-            order: 8;
+            
         }
 
         div#i5 {
-            order: 2;
+            align-self: center;
         }
 
         div#i6 {
-            order: 0;
+            align-self: flex-start;
         }
 
         div#i7 {
-            order: 0;
+            align-self: stretch;
         }
 
-        div#i8 {
-            order: 2;
-        }
     </style>
 </head>
 <body>
@@ -61,8 +61,7 @@
                <div class="iten" id="i4">D</div>
                 <div class="iten" id="i5">E</div>
                  <div class="iten" id="i6">F</div>
-                  <div class="iten" id="i7">G</div>
-                   <div class="iten" id="i8">H</div>       
+                  <div class="iten" id="i7">G</div>    
     </div>
 </body>
 </html>
